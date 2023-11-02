@@ -104,6 +104,7 @@ void motorOff(int motor)
  pwm: should be a value between ? and 1023, higher the number, the faster
  it'll go
  */
+ //Test1
 void motorGo(uint8_t motor, uint8_t direct, uint8_t pwm)
 {
   if (motor <= 1)
